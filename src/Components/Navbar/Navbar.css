@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 120px;
+    color: white;
+}
+.nav-logo{
+    font-family: Outfit;
+    font-size: 44px;
+    font-weight: 500;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    gap: 60px;
+}
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: #fff;
+    color: black;
+}
+.nav-story {
+    margin-top: 80px; /* Mover la sección de historia hacia abajo */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }

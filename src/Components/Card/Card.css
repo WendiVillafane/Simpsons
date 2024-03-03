@@ -1,0 +1,51 @@
+.card{ 
+    background-color: rgb(139, 201, 255);
+    border: 1px solid hsl(60, 100%, 52%);
+    border-radius: 20px;
+    padding: 23px;
+    margin: 17px;
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+.card .card-image{
+    max-width: 60%;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+}
+.card .card-title{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    color: hsl(0, 0%, 0%);
+    padding: 1px;
+}
+.card .card-text{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 0%);
+    padding: 0%;
+    font-size: 20px;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en varias líneas */
+    gap: 20px; /* Espacio entre las imágenes */
+  }
+  
+  .gallery-item {
+    width: calc(50% - 10px); /* Calcula el ancho de cada imagen (50% del contenedor menos el espacio entre las imágenes) */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
